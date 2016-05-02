@@ -1,0 +1,9 @@
+== Reddit On Rails
+
+A clone of Reddit made entirely in Ruby on Rails.
+
+Features:
+
+* Upvotes use polymorphic associations
+
+* Uses eager loading to fetch comments, avoiding N+1 queries
